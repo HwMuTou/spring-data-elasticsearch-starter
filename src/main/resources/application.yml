@@ -1,0 +1,7 @@
+server:
+  port: 8099
+spring:
+  data:
+    elasticsearch:
+      clusterName: docker-cluster
+      clusterNodes: 172.27.9.114:9300
