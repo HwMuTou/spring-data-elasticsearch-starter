@@ -34,3 +34,4 @@ spring:
 启动服务后，访问 http://172.27.8.232:8099/swagger-ui.html , 通过Swagger-ui界面调试Controller提供的Restful接口。
 
 注意事项：由于Swagger组件问题，对于Pageable对象的注入，参数应该是 page, size, sort; 并非接口文档提供的内容。
+所以使用时可以仅填写page, size, sort 三个参数，其他的都可以不填写，或者都不填写会自动使用默认值。
